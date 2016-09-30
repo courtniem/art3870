@@ -1,0 +1,48 @@
+
+@media screen and (min-width:0px) and (max-width:640px) {
+  /* CSS code for small screens */
+
+  h1 {font: 24px/30px 'Quicksand', sans-serif;
+      color: red;
+    }
+
+  h2 {font-family:'Quicksand', sans-serif;
+    }
+
+
+
+      .img-circle {
+        border: 6px;
+        color: black;
+        border-radius: 50%;
+      }
+
+
+
+
+
+}
+@media screen and (min-width:641px) {
+  /* CSS code for larger screens */
+
+
+  h1 {font: 48px/60px 'Quicksand', sans-serif;
+    color: green;
+  }
+
+
+
+
+  h2 {font-family:'Quicksand', sans-serif;
+
+
+  }
+
+  .img-circle {
+    border: 6px;
+    color: black;
+    border-radius: 25%;
+  }
+
+
+}
