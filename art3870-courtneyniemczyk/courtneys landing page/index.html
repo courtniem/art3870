@@ -8,28 +8,37 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Jura|Source+Code+Pro" rel="stylesheet">
   </head>
   <body>
+
     <section class="row">
-        <h1 class="columns small-12 large-6"> headline</h1>
-        <img src="http://placekitten.com/g/600/800" alt="" class="columns small-12 large-12" />
-                                                    <!--on small screen pic occupies half that of large screen-->
+       <span id="greeting">hello!</span>
+
     </section>
 
-    <section class="row 2">
-        <h2 class="columns small-12 large-6"> headline</h2>
-        <h2 class="columns small-12 large-6"> headline</h2>
-        <h2 class="columns small-12 large-6"> headline</h2>
-        <h2 class="columns small-12 large-6"> headline</h2>
-        <img src="http://placekitten.com/g/600/800" alt="" class="columns small-12 large-12" />
+    <section class="row 1">
+        <h1 class="columns small-12 large-12"> Typography Services </h1>
+        <img src="images/comictext5.png" alt="" class="columns small-12 large-12" />
                                                     <!--on small screen pic occupies half that of large screen-->
     </section>
 
 
-    <section>
-      Welcome to page 47. I just wanted to say: <span id="greeting">hello!</span>
 
-    </section>
+<section class="row 2">
+  <h2 class="columns small-12 large-4">   <img src="images/biitmany2.png" alt="" class="columns small-12 large-12"  /></h2>
+  <h2 class="columns small-12 large-4">  <img src="images/biitlogo2.png" alt="" class="columns small-12 large-12"</h2>
+  <h2 class="columns small-12 large-4">   <img src="images/comicinverse5java.png" alt="" class="columns small-12 large-12"</h2>
+
+
+</section>
+
+<section class="row 3">
+  <h3 class="columns small-12 large-6">  Past Projects</h3>
+  <h3 class="columns small-12 large-6"> Courtney.b.niemczyk@gmail.com</h3>
+
+
+</section>
 
 <script type="text/javascript">
   var myDate = new Date();
@@ -47,10 +56,12 @@ if ( myHour <= 17 )
     document.getElementById('greeting').innerHTML = "Good Afternoon!";
 }
 
-if (  myHour <= 24 )
+if (  myHour >= 24 )
 {
    document.getElementById('greeting').innerHTML = "Good Evening!";
 }
+
+
 
 </script>
 

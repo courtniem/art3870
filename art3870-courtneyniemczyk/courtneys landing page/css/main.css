@@ -1,0 +1,65 @@
+
+@media screen and (min-width:0px) and (max-width:640px) {
+  /* CSS code for small screens */
+
+  h1 {font: 24px/30px 'Quicksand', sans-serif;
+      color: green;
+    }
+
+  h2 {font-family:'Quicksand', sans-serif;
+  color: green;
+    }
+
+
+
+      .img-circle {
+        border: 6px;
+        color: black;
+        border-radius: 50%;
+      }
+
+
+
+
+
+}
+@media screen and (min-width:641px) {
+  /* CSS code for larger screens */
+
+
+  h1 {font: 48px/60px 'Source Code Pro', monospace;
+    color: black;
+    text-indent: 200px;
+  }
+
+
+
+
+  h2 {font-family:'Source Code Pro', monospace;
+  color: black;
+
+
+  }
+  h3{font-family: 'Source Code Pro', monospace;
+
+  }
+
+  img {
+    border: 10px;
+    color: black;
+    border-radius: 50%;
+  }
+
+
+}
+
+
+
+span {
+  font-size: 20px;
+  text-indent: 400px;
+}
+
+
+#greeting {color:blue;
+size: 16px;}
