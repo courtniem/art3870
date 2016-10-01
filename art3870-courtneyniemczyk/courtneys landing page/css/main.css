@@ -3,7 +3,7 @@
   /* CSS code for small screens */
 
   h1 {font: 24px/30px 'Quicksand', sans-serif;
-      color: green;
+      color: teal;
     }
 
   h2 {font-family:'Quicksand', sans-serif;
@@ -19,6 +19,10 @@
       }
 
 
+      #greeting {font: 18px/22px 'Source Code Pro', monospace;
+        color:#20B2AA;
+        text-indent: 3px;
+    }
 
 
 
@@ -56,10 +60,7 @@
 
 
 span {
+  color: blue;
   font-size: 20px;
   text-indent: 400px;
 }
-
-
-#greeting {color:blue;
-size: 16px;}
